@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sistemas del cuerpo humano</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid mx-5">
+            <a class="navbar-brand fs-4 text-warning titulos mx-5" href="inicio.html">Sistemas del cuerpo humano</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-5" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Despliega
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sis_circulatorio.html">Sistema circulatorio</a></li>
+                            <li><a class="dropdown-item" href="sis_muscular.html">Sistema muscular</a></li>
+                            <li><a class="dropdown-item" href="sis_respiratorio.html">Sisitema respiratorio</a></li>
+                            <li><a class="dropdown-item" href="sis_nervioso.html">Sisitema nervioso</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br>
+
+    <div class="container mt-5">
+
+        <p class="diplay-6 fs-3 text-center text-danger titulos">Sistema digestivo</p><hr><br>
+
+        <center><img src="img/digestivo.jpg" usemap="#image-map"></center>
+        
+        <map name="image-map">
+            <area target="" alt="boca" title="boca" onclick="boca()" coords="196,119,114,79" shape="rect">
+            <area target="" alt="estomago" title="estomago" onclick="estomago()" coords="166,231,38,184" shape="rect">
+            <area target="" alt="higado" title="higado" onclick="higado()" coords="147,298,49,258" shape="rect">
+            <area target="" alt="intestino_delgado" title="intestino_delgado" onclick="intes_delg()" coords="140,401,23,335" shape="rect">
+            <area target="" alt="intestino_grueso" title="intestino_grueso" onclick="intes_gru()" coords="128,486,13,425" shape="rect">
+            <area target="" alt="glandulas_salivales" title="glandulas_salivales" onclick="glan_sali()" coords="570,90,442,21" shape="rect">
+            <area target="" alt="faringe" title="faringe" onclick="faringe()" coords="558,154,452,113" shape="rect">
+            <area target="" alt="esofago" title="esofago" onclick="esofago()" coords="601,219,489,171" shape="rect">
+            <area target="" alt="pancreas" title="pancreas" onclick="pancreas()" coords="674,380,555,332" shape="rect">
+            <area target="" alt="recto" title="recto" onclick="rect()" coords="524,513,446,464" shape="rect">
+            <area target="" alt="ano" title="ano" onclick="ano()" coords="517,576,457,532" shape="rect">
+        </map>
+
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark" href="">Ing.Franyany Rodriguez Cabrera #19</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    <script src="js/digestivo.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

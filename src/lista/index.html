@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Lista de Tareas</h1></center>
+<div class="container-fluid mx-auto p-5">
+    <table class="table table-bordered border-dark border-1">
+        <thead>
+          <tr>
+            <th class="table-primary" scope="col">Lunes</th>
+            <th class="table-secondary" scope="col">Martes</th>
+            <th class="table-success" scope="col">Miercoles</th>
+            <th class="table-danger">Jueves</th>
+            <th class="table-warning"> Viernes</th>
+            <th class="table-info" scope="col">Sabado</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="table-primary">
+                    <input type="text" name="tareasLun" id="tareasLun" placeholder="Pon una tarea">
+                    <center><button id="botonLunes">+</button></center>
+            </td>
+            <td class="table-secondary">
+                <input type="text" name="tareasMar" id="tareasMar" placeholder="Pon una tarea">
+                 <center><button id="botonMartes">+</button></center>
+            </td>
+            <td class="table-success">
+                <input type="text" name="tareasMier" id="tareasMier" placeholder="Pon una tarea">
+                 <center><button id="botonMiercoles">+</button></center>
+            </td>
+            <td class="table-danger">
+                <input type="text" name="tareasJuev" id="tareasJuev" placeholder="Pon una tarea">
+                 <center><button id="botonJueves">+</button></center>
+            </td>
+            <td class="table-warning">
+                <input type="text" name="tareasVie" id="tareasVie" placeholder="Pon una tarea">
+                 <center><button id="botonViernes">+</button></center>
+            </td>
+            <td class="table-info">
+                <input type="text" name="tareasSab" id="tareasSab" placeholder="Pon una tarea">
+                <center><button id="botonSabado">+</button> </center>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-primary">                
+                <div class="tareaLun"></div>
+            </td>
+            <td class="table-secondary">
+                <div id="TaraeMar"></div>
+            </td>
+            <td class="table-success">
+                <div id="TareaMier"></div>
+            </td>
+            <td class="table-danger">
+                <div id="TareaJueee"></div>
+            </td>
+            <td class="table-warning">
+                <div id="TareaVie"></div>
+            </td>
+            <td class="table-info">
+                <div id="TareaSab"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <center><h1>Desarrollado Por: Marcos Jhonniel Abreu Duran</h1></center>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"></script>
+    <script src="java/index.js"></script>
+</body>
+</html>

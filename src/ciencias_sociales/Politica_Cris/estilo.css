@@ -1,0 +1,32 @@
+
+.p{
+   color: blue;
+    font-size: 20px;
+}
+
+.pi{
+    color: darkblue;
+    font-size: 17px;
+}
+
+.resultado{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+}
+.amiguito{
+    margin-left: 550px;
+    margin-top: -450px;
+    width: 600px;
+   
+}
+
+.pum{
+    background-color: brown;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+
+}
+    

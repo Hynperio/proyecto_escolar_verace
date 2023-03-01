@@ -1,0 +1,427 @@
+body {
+    background-color: #ffccbc;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    user-select: none;
+}
+.imagen1 {
+    width: 140px;
+    height: 140px;
+    margin-top: -75px;
+    user-select: none;
+}
+.imagen2 {
+    width: 160px;
+    margin-left: 1100px;
+    margin-top: -110px;
+    user-select: none;
+}
+.la {
+    width: 100px;
+    height: 85px;
+    background-color: #651fff;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 140px;
+    user-select: none;
+}
+.la:hover {
+    border-radius: 50%;
+}
+.lb {
+    width: 100px;
+    height: 85px;
+    background-color: #1de9b6;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 250px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lb:hover {
+    border-radius: 50%;
+}
+.lc {
+    width: 100px;
+    height: 85px;
+    background-color: #ea80fc;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 360px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lc:hover {
+    border-radius: 50%;
+}
+.ld {
+    width: 100px;
+    height: 85px;
+    background-color: #ff4081;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 470px;
+    margin-top: -85px;
+    user-select: none;
+}
+.ld:hover {
+    border-radius: 50%;
+}
+.le {
+    width: 100px;
+    height: 85px;
+    background-color: #26a69a;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 580px;
+    margin-top: -85px;
+    user-select: none;
+}
+.le:hover {
+    border-radius: 50%;
+}
+.lf {
+    width: 100px;
+    height: 85px;
+    background-color: #4caf50;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 690px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lf:hover {
+    border-radius: 50%;
+}
+.lg {
+    width: 100px;
+    height: 85px;
+    background-color: #ffff8d;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 800px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lg:hover {
+    border-radius: 50%;
+}
+.lh {
+    width: 100px;
+    height: 85px;
+    background-color: #d50000;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 910px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lh:hover {
+    border-radius: 50%;
+}
+.li {
+    width: 100px;
+    height: 85px;
+    background-color: #ff6d00;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 1020px;
+    margin-top: -85px;
+    user-select: none;
+}
+.li:hover {
+    border-radius: 50%;
+}
+.lj {
+    width: 100px;
+    height: 85px;
+    background-color: #ff6d00;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 140px;
+    user-select: none;
+    margin-top: 30px;
+}
+.lj:hover {
+    border-radius: 50%;
+}
+.lk {
+    width: 100px;
+    height: 85px;
+    background-color: #d50000;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 250px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lk:hover {
+    border-radius: 50%;
+}
+.ll {
+    width: 100px;
+    height: 85px;
+    background-color: #ffff8d;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 360px;
+    margin-top: -85px;
+    user-select: none;
+}
+.ll:hover {
+    border-radius: 50%;
+}
+.lm {
+    width: 100px;
+    height: 85px;
+    background-color: #4caf50;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 470px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lm:hover {
+    border-radius: 50%;
+}
+.ln {
+    width: 100px;
+    height: 85px;
+    background-color: #26a69a;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 580px;
+    margin-top: -85px;
+    user-select: none;
+}
+.ln:hover {
+    border-radius: 50%;
+}
+.lñ {
+    width: 100px;
+    height: 85px;
+    background-color: #ff4081;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 690px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lñ:hover {
+    border-radius: 50%;
+}
+.lo {
+    width: 100px;
+    height: 85px;
+    background-color: #ea80fc;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 800px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lo:hover {
+    border-radius: 50%;
+}
+.lp {
+    width: 100px;
+    height: 85px;
+    background-color: #1de9b6;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 910px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lp:hover {
+    border-radius: 50%;
+}
+.lq {
+    width: 100px;
+    height: 85px;
+    background-color: #651fff;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 1020px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lq:hover {
+    border-radius: 50%;
+}
+.lr {
+    width: 100px;
+    height: 85px;
+    background-color: #651fff;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 140px;
+    user-select: none;
+    margin-top: 30px;
+}
+.lr:hover {
+    border-radius: 50%;
+}
+.ls {
+    width: 100px;
+    height: 85px;
+    background-color: #1de9b6;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 250px;
+    margin-top: -85px;
+    user-select: none;
+}
+.ls:hover{
+    border-radius: 50%;
+}
+.lt {
+    width: 100px;
+    height: 85px;
+    background-color: #ea80fc;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 360px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lt:hover{
+    border-radius: 50%;
+}
+.lu {
+    width: 100px;
+    height: 85px;
+    background-color: #ff4081;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 470px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lu:hover{
+    border-radius: 50%;
+}
+.lv {
+    width: 100px;
+    height: 85px;
+    background-color: #26a69a;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 580px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lv:hover{
+    border-radius: 50%;
+}
+.lw {
+    width: 100px;
+    height: 85px;
+    background-color: #4caf50;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 690px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lw:hover{
+    border-radius: 50%;
+}
+.lx {
+    width: 100px;
+    height: 85px;
+    background-color: #ffff8d;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 800px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lx:hover{
+    border-radius: 50%;
+}
+.ly {
+    width: 100px;
+    height: 85px;
+    background-color: #d50000;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 910px;
+    margin-top: -85px;
+    user-select: none;
+}
+.ly:hover{
+    border-radius: 50%;
+}
+.lz {
+    width: 100px;
+    height: 85px;
+    background-color: #ff6d00;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 1020px;
+    margin-top: -85px;
+    user-select: none;
+}
+.lz:hover{
+    border-radius: 50%;
+}

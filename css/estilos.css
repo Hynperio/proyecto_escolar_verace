@@ -1,0 +1,15 @@
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.font_tiza{
+    color: white;
+    font-family: 'Fredericka the Great', 'Times New Roman', serif;
+}
+
+
+.sombra_none{
+    box-shadow: 0px 0px 0px 0px;
+}

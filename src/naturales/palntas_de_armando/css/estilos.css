@@ -1,0 +1,155 @@
+header {
+	background: rgba(242, 248, 252, 0.7);
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+  }
+
+  
+  nav {
+	float: left;
+  }
+  
+  nav ul {
+	list-style: none;
+	
+  }
+  
+  nav ul li {
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+  }
+  nav ul li a {
+	display: block;
+	padding: 10px;
+	color: #000000;
+	text-decoration: none;
+  }
+  nav ul li:hover {
+	background: #aaaaaa;
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+.floi{
+position: relative;
+height: 700px;
+width: 800px;
+left: 250px;
+top: 100px;
+}
+
+.arroz{
+  position: relative;
+  
+  top: 200px;
+}
+.semilla{
+  position: relative;
+  left: 50px;
+  bottom: 95px;
+}
+.petalos{
+  position: relative;
+  right:480px;
+  bottom: 65px;
+}
+.tallo{
+  position: relative;
+  right: 595px;
+  top: 140px;
+}
+.raiz{
+  position: relative;
+  top: 395px;
+  right: 160px;
+}
+.hoja{
+  position: relative;
+  right: 250px;
+  top: 100px;
+}
+.jj{
+  position: relative;
+  width: 400px;
+  top: 200px;
+}
+.semil{
+  position: relative;
+  left: 400px;
+  width: 900px;
+  bottom: 50px;
+}
+.ayuda{
+  position: relative;
+  left: 1000px;
+  bottom: 900px;
+}
+.sas{
+  position: relative;
+  top: 150px;
+}
+.sefalo{
+  position: relative;
+  width: 700px;
+  top: 200px;
+  left: 300px;
+}
+.semila{
+  
+  position: relative;
+  left: 100px;
+  width: 1200px;
+  top: 200px;
+}
+.tal{
+  position: relative;
+  width: 300px;
+  height: 500px;
+}
+.semilasa{
+  
+  position: relative;
+  left: 300px;
+  width: 1000px;
+  bottom: 300px;
+}
+.talo{
+  position: relative;
+  left: 300px;
+  bottom: 300px;
+  width: 1000px;
+}
+.semiles{
+  position: relative;
+  left: 400px;
+  width: 900px;
+  bottom: 150px;
+
+}
+.ayudas{
+  position: relative;
+  left: 1000px;
+  bottom: 800px;
+
+}
+.ayudase{
+  position: relative;
+  left: 1000px;
+  bottom: 750px;
+
+
+}
+.semilesa{
+  
+  position: relative;
+  left: 400px;
+  width: 900px;
+  bottom: 100px;
+
+}

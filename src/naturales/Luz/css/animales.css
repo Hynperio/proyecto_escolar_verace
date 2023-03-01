@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(105, 241, 195);
+    font-family: 'Shantell Sans', cursive;
+
+}
+
+.tit{
+    color: black;
+}
+
+.img1{
+    height: 15%;
+    width: 15%;
+}
+.img2{
+    height: 12%;
+    width: 12%;
+}
+.img3{
+    height: 13%;
+    width: 13%;
+}
+.img4{
+    height: 14%;
+    width: 14%;
+}
+.img5{
+    height: 10%;
+    width: 10%;
+}
+.img6{
+    height: 19%;
+    width: 18%;
+}
+.img7{
+    height: 11%;
+    width: 11%;
+}
+.img8{
+    height: 11%;
+    width: 11%;
+}
+
+.img9{
+    height: 18%;
+    width: 18%;
+    margin-left: -1%;
+}
+.todo{
+    font-family: 'Shantell Sans', cursive;
+}

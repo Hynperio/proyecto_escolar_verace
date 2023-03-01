@@ -1,0 +1,44 @@
+
+.circulatorio{
+    width: 200px;
+    height: 200px;
+}
+
+.titulos{
+    font-family: 'Sora', sans-serif;
+}
+
+.sistema{
+    background-color: darkcyan;
+    border-radius: 10px;
+   
+}
+
+.sistema_cir{
+    background-color: darkorchid;
+    border-radius: 10px;
+   
+}
+
+.sistema_res{
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+
+.sistema_mus{
+    background-color: #E3327C;
+    border-radius: 10px;
+   
+}
+
+.sistema_dig{
+    background-color: #7a5c3c;
+    border-radius: 10px;
+   
+}
+
+.sistema_ner{
+    background-color: #009929;
+    border-radius: 10px;
+}

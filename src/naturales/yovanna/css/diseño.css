@@ -1,0 +1,511 @@
+
+.titulo{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Sono', sans-serif;
+}
+
+body{
+    background-image: url("../img/fondo2.jpg");
+}
+
+.cuerpo{
+    width: 100px;
+    cursor: pointer;
+    
+}
+
+.jup{
+    width: 130px;
+    cursor: pointer;
+}
+
+.satu{
+    width: 130px;
+    cursor: pointer;
+}
+
+.card{
+    margin:0px auto;
+}
+
+.columna{
+    margin-top: 10px;
+}
+
+#info{
+    display: none;
+}
+#info2{
+    display: none;
+}
+#info3{
+    display: none;
+}
+#info4{
+    display: none;
+}
+#info5{
+    display: none;
+}
+#info6{
+    display: none;
+}
+#info7{
+    display: none;
+}
+#info8{
+    display: none;
+}
+#info9{
+    display: none;
+}
+
+#sol1{
+    display: none;
+}
+
+#mercurio2{
+    display: none;
+}
+#venus3{
+    display: none;
+}
+
+#tierra4{
+    display: none;
+}
+
+#marte5{
+    display: none;
+}
+
+#jupiter6{
+    display: none;
+}
+
+#saturno7{
+    display: none;
+}
+
+#urano8{
+    display: none;
+}
+
+#neptuno9{
+    display: none;
+}
+
+.shadow{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/sol2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow:before,
+  .shadow:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow2{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/mercurio2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow2:before,
+  .shadow2:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow2:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow3{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/venus2.webp");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow3:before,
+  .shadow3:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow3:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow4{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/tierra2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow4:before,
+  .shadow4:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow4:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow5{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/marte2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow5:before,
+  .shadow5:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow5:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow6{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/jupiter2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow6:before,
+  .shadow6:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow6:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow7{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/saturno2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow7:before,
+  .shadow7:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow7:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow8{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/urano2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow8:before,
+  .shadow8:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow8:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }
+
+  .shadow9{
+    position: relative;
+    margin: 200px auto 0;
+    width: 400px;
+    height: 250px;
+    background-image: url("../img/neptuno2.jpg");
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 1px;
+  }
+  
+  .shadow9:before,
+  .shadow9:after{
+    content:'';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(30deg, #fb0094, #0000ff, #00ff00,#ad1457,#f50057,#ff1744,#00bfa5,#bf360c,#ffea00);
+    background-size: 400%;;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+    
+  }
+  
+  .shadow9:after{
+    filter:blur(55px);
+  }
+  
+  @keyframes animate{
+    0%
+    {
+      background-position: 0 0;
+    }
+    50%
+    {
+      background-position: 400% 0;
+    }
+    100%
+    {
+      background-position: 0 0;
+    }
+    
+  }

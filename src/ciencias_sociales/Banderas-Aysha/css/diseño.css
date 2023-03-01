@@ -1,0 +1,29 @@
+.imagen{
+    width: 200px;
+    height: 130px;
+}
+
+body {
+    background-image: url("../img/mapa.jpg");
+    background-repeat: no-repeat;
+  
+}
+
+
+
+.titulo{
+    font-family: 'Itim', cursive;
+font-family: 'Lilita One', cursive;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.row1{
+    margin-bottom: 100px;
+}
+
+select {
+    display: flex;
+}

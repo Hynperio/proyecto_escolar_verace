@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/diseño.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+</head>
+
+<body><br>
+  <h1 class="titulo">Sistema Solar</h1><br>
+  <h5 class="titulo">Yovanna Vict. Lucas #23</h5><br><br>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col" id="boton" onclick="mostrar();">
+        <img src="img/sol.png" alt="" class="cuerpo">
+      </div>
+      <div class="col" id="boton" onclick="mostrar2();">
+        <img src="img/mercurio.png" alt="" class="cuerpo">
+      </div>
+      <div class="col" id="boton" onclick="mostrar3();">
+        <img src="img/venus.png" alt="" class="cuerpo">
+      </div>
+      <div class="col" id="boton" onclick="mostrar4();">
+        <img src="img/tierra.png" alt="" class="cuerpo">
+      </div>
+      <div class="col" id="boton" onclick="mostrar5();">
+        <img src="img/marte.png" alt="" class="cuerpo">
+      </div>
+      <div class="col" id="boton" onclick="mostrar6();">
+        <img src="img/jupiter.png" alt="" class="jup">
+      </div>
+      <div class="col" id="boton" onclick="mostrar7();">
+        <img src="img/saturn.png" alt="" class="satu">
+      </div>
+      <div class="col" id="boton" onclick="mostrar8();">
+        <img src="img/urano.png" alt="" class="cuerpo">
+      </div>
+      <div class="col" id="boton" onclick="mostrar9();">
+        <img src="img/neptuno.png" alt="" class="cuerpo">
+      </div>
+    </div><br><br><br>
+
+    <!-------------------------------------<img src="img/sol2.jpg" class="lados"  alt="" >-------->
+
+
+    <!--------------------------------------------->
+    <div class="row">
+      <div class="col columna">
+      </div><br><br>
+      <div class="card text-bg-dark mb-3" id="info" style="max-width: 23rem;">
+        <div class="card-header">Sol</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: estrella <br>
+            Tamaño: 696,340 km <br>
+            Edad: 4,603 miles de millones años <br>
+            Distancia a la Tierra: 149,6 millones de km <br>
+            Temperatura de la superficie: 5504.85℃ <br>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info2" style="max-width: 23rem;">
+        <div class="card-header">Mercurio</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta rocoso<br>
+            Tamaño: 2,439.7 km <br>
+            Edad: 4,503 miles de millones años <br>
+            Distancia al Sol: 58 millones de km <br>
+            Temperatura de la superficie: –180℃ a 430℃ <br>
+            Lunas: ninguna<br>
+            Duración del día: 59 días terrestres
+
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info3" style="max-width: 23rem;">
+        <div class="card-header">Venus</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta rocoso <br>
+            Tamaño: 6,051.8 km <br>
+            Edad: 4,503 miles de millones años <br>
+            Distancia al Sol: 108 millones de Km<br>
+            Temperatura de la superficie: 463.85℃ <br>
+            Lunas: ninguna<br>
+            Duración del día: 243 días terrestres
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info4" style="max-width: 23rem;">
+        <div class="card-header">Tierra</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta rocoso <br>
+            Tamaño: 6,371 km <br>
+            Edad: 4,543 miles de millones años<br>
+            Distancia al Sol: 149,6 millones km<br>
+            Temperatura de la superficie: 15.38℃ <br>
+            Lunas: 1<br>
+            Duración del día: 23 horas y 56 minutos
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info5" style="max-width: 23rem;">
+        <div class="card-header">Marte</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta rocoso <br>
+            Tamaño: 3,389.5 km <br>
+            Edad: 4,603 miles de millones años<br>
+            Distancia al Sol: 230 millones de km <br>
+            Temperatura de la superficie: 0℃ a -129℃ <br>
+            Lunas: 2<br>
+            Duración del día: 24,6 horas
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info6" style="max-width: 23rem;">
+        <div class="card-header">Júpiter</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta gaseoso <br>
+            Tamaño: 69,911 km <br>
+            Edad: 4,603 miles de millones años <br>
+            Distancia al Sol: 778 millones de km <br>
+            Temperatura de la superficie: 930℃ a 1,330℃ <br>
+            Lunas: 79<br>
+            Duración del día: 10 horas
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info7" style="max-width: 23rem;">
+        <div class="card-header">Saturno</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta gaseoso <br>
+            Tamaño: 58,232 km <br>
+            Edad: 4,503 miles de millones años <br>
+            Distancia al Sol: 1,400 millones de km <br>
+            Temperatura de la superficie: -176℃ <br>
+            Lunas: 53<br>
+            Duración del día: 10,7 horas
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info8" style="max-width: 23rem;">
+        <div class="card-header">Urano</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta gaseoso<br>
+            Tamaño: 25,362 km <br>
+            Edad: 4,503 miles de millones años <br>
+            Distancia al Sol: 1,800 millones de kilómetros<br>
+            Temperatura de la superficie: -218℃ <br>
+            Lunas: 27<br>
+            Duración del día: 17 horas y 14 minutos
+          </p>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark mb-3" id="info9" style="max-width: 23rem;">
+        <div class="card-header">Neptuno</div>
+        <div class="card-body">
+          <h5 class="card-title">Información</h5>
+          <p class="card-text">
+            Tipo: planeta gaseoso<br>
+            Tamaño: 24,622 km <br>
+            Edad: 4,503 miles de millones años<br>
+            Distancia al Sol: 4,500 millones de km <br>
+            Temperatura de la superficie: -216℃ <br>
+            Lunas: 14 <br>
+            Duración del día: 16 horas
+          </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="shadow" id="sol1"></div>
+      
+      
+        <div class="shadow2" id="mercurio2"></div>
+    
+      
+        <div class="shadow3" id="venus3"></div>
+    
+      
+        <div class="shadow4" id="tierra4"></div>
+    
+      
+        <div class="shadow5" id="marte5"></div>
+    
+      
+        <div class="shadow6" id="jupiter6"></div>
+    
+      
+        <div class="shadow7" id="saturno7"></div>
+    
+      
+        <div class="shadow8" id="urano8"></div>
+    
+      
+        <div class="shadow9" id="neptuno9"></div>
+    </div>
+    </div>
+  </div>
+
+
+  <!------------------------------------->
+  <script src="js/javascript.js"></script>
+</body>
+
+</html>

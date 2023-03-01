@@ -1,0 +1,108 @@
+.body{
+    background-color: brown;
+}
+
+.btn-sample { 
+    color: #FFFFFF; 
+    background-color: #CE28E1; 
+    border-color: #CE28E1; 
+  } 
+  .btn-sample:hover, 
+  .btn-sample:focus, 
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    color: #FFFFFF; 
+    background-color: #49247A; 
+    border-color: #CE28E1; 
+  } 
+  
+  .btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #CE28E1; 
+  border-color: #CE28E1; 
+} 
+ 
+.btn-sample .badge { 
+  color: #CE28E1; 
+  background-color: #FFFFFF; 
+}
+.loquesea{
+    margin-top: 15px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(206, 40, 225);
+}
+
+.btn-tita { 
+    color: #FFFFFF; 
+    background-color: #DA71E6; 
+    border-color: #DA71E6; 
+  } 
+   
+  .btn-tita:hover, 
+  .btn-tita:focus, 
+  .btn-tita:active, 
+  .btn-tita.active, 
+  .open .dropdown-toggle.btn-tita { 
+    color: #FFFFFF; 
+    background-color: #C138D9; 
+    border-color: #DA71E6; 
+  } 
+   
+  .btn-tita:active, 
+  .btn-tita.active, 
+  .open .dropdown-toggle.btn-tita { 
+    background-image: none; 
+  } 
+   
+  .btn-tita.disabled, 
+  .btn-tita[disabled], 
+  fieldset[disabled] .btn-tita, 
+  .btn-tita.disabled:hover, 
+  .btn-tita[disabled]:hover, 
+  fieldset[disabled] .btn-tita:hover, 
+  .btn-tita.disabled:focus, 
+  .btn-tita[disabled]:focus, 
+  fieldset[disabled] .btn-tita:focus, 
+  .btn-tita.disabled:active, 
+  .btn-tita[disabled]:active, 
+  fieldset[disabled] .btn-tita:active, 
+  .btn-tita.disabled.active, 
+  .btn-tita[disabled].active, 
+  fieldset[disabled] .btn-tita.active { 
+    background-color: #DA71E6; 
+    border-color: #DA71E6; 
+  } 
+   
+  .btn-tita .badge { 
+    color: #DA71E6; 
+    background-color: #FFFFFF; 
+  }
+
+  .nom{
+    margin-left: 70px;
+    margin-top: 10px;
+  }

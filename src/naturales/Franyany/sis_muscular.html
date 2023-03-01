@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sistemas del cuerpo humano</del></title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid mx-5">
+            <a class="navbar-brand fs-4 text-warning titulos mx-5" href="inicio.html">Sistemas del cuerpo humano</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-5" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Despliega
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sis_circulatorio.html">Sistema circulatorio</a></li>
+                            <li><a class="dropdown-item" href="sis_respiratorio.html">Sistema respiratorio</a></li>
+                            <li><a class="dropdown-item" href="sis_digestivo.html">Sisitema digestivo</a></li>
+                            <li><a class="dropdown-item" href="sis_nervioso.html">Sisitema nervioso</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br>
+
+    <div class="container mt-5">
+
+        <p class="diplay-6 fs-3 text-center text-danger titulos">Sistema muscular</p><hr><br>
+
+        <center><img src="img/muscular.jpg" usemap="#image-map"></center>
+
+        <map name="image-map">
+            <area target="" alt="extensor" title="extensor" onclick="extensor()" coords="375,488,255,438" shape="rect">
+            <area target="" alt="tibia" title="tibia" onclick="tibia()" coords="109,423,3,372" shape="rect">
+            <area target="" alt="cuadriceps" title="cuadriceps" onclick="cuadriceps()" coords="132,327,24,286" shape="rect">
+            <area target="" alt="sartorio" title="sartorio" onclick="sartorio()" coords="331,306,259,267" shape="rect">
+            <area target="" alt="abdominal" title="abdominal" onclick="abdominal()" coords="138,219,4,185" shape="rect">
+            <area target="" alt="serrato_mayor" title="serrato_mayor" onclick="serratoM()" coords="117,178,2,147" shape="rect">
+            <area target="" alt="biceps" title="biceps" onclick="biceps()" coords="367,166,291,135" shape="rect">
+            <area target="" alt="pectoral_mayor" title="pectoral_mayor" onclick="pectoralM()" coords="122,128,5,99" shape="rect">
+            <area target="" alt="masetero" title="masetero" onclick="masetero()" coords="98,77,13,45" shape="rect">
+            <area target="" alt="frontal" title="frontal" onclick="frontal()" coords="326,40,252,6" shape="rect">
+            <area target="" alt="escleodio" title="escleodio" onclick="escleodio()" coords="408,77,228,63" shape="rect">
+            <area target="" alt="trapecio" title="trapecio" onclick="trapecio()" coords="337,100,249,80" shape="rect">
+            <area target="" alt="deltoide" title="deltoide" onclick="deltoide()" coords="364,125,283,105" shape="rect">
+            <area target="" alt="temporal" title="temporal" onclick="temporal()" coords="656,60,573,28" shape="rect">
+            <area target="" alt="trapecio_atras" title="trapecio_atras" onclick="trapecio_detras()" coords="675,108,595,78" shape="rect">
+            <area target="" alt="triceps" title="triceps" onclick="triceps()" coords="698,162,630,136" shape="rect">
+            <area target="" alt="dorsal" title="dorsal" onclick="dorsal()" coords="727,204,658,173" shape="rect">
+            <area target="" alt="gluteo_mayor" title="gluteo_mayor" onclick="gluteoM()" coords="710,302,591,259" shape="rect">
+            <area target="" alt="abductor_mayor" title="abductor_mayor" onclick="abductorM()" coords="727,356,595,314" shape="rect">
+        </map>
+
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark" href="">Ing.Franyany Rodriguez Cabrera #19</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    <script src="js/muscular.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

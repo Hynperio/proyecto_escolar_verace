@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sistemas del cuerpo humano</del></title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid mx-5">
+            <a class="navbar-brand fs-4 text-warning titulos mx-5" href="inicio.html">Sistemas del cuerpo humano</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-5" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Despliega
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sis_circulatorio.html">Sistema circulatorio</a></li>
+                            <li><a class="dropdown-item" href="sis_respiratorio.html">Sistema respiratorio</a></li>
+                            <li><a class="dropdown-item" href="sis_digestivo.html">Sisitema digestivo</a></li>
+                            <li><a class="dropdown-item" href="sis_muscular.html">Sisitema muscular</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br>
+
+    <div class="container mt-5">
+
+        <p class="diplay-6 fs-3 text-center text-danger titulos">Sistema nervioso</p><hr><br>
+
+       <center><img src="img/nervioso.jpg" usemap="#image-map"></center>
+
+       <map name="image-map">
+        <area target="" alt="cerebro" title="cerebro" onclick="cerebro()" coords="187,60,105,34" shape="rect">
+        <area target="" alt="tronco_cerebral" title="tronco_cerebral" onclick="tronco_cerebral()" coords="170,95,26,65" shape="rect">
+        <area target="" alt="nervios_craneales" title="nervios_craneales" onclick="nerv_caniales()" coords="195,152,27,119" shape="rect">
+        <area target="" alt="nervio_radial" title="nervio_radial" onclick="nerv_radial()" coords="159,245,34,207" shape="rect">
+        <area target="" alt="nervio_cubital" title="nervio_cubital" onclick="nerv_cubital()" coords="134,318,8,276" shape="rect">
+        <area target="" alt="nervio_femoral" title="nervio_femoral" onclick="nerv_femoral()" coords="177,397,29,360" shape="rect">
+        <area target="" alt="nervio_plantar_medio" title="nervio_plantar_medio" onclick="nerv_pies()" coords="566,602,378,560" shape="rect">
+        <area target="" alt="nervio_tibial" title="nervio_tibial" onclick="nerv_tibial()" coords="501,487,374,444" shape="rect">
+        <area target="" alt="nervio_ciatico" title="nervio_ciatico" onclick="nerv_ciatico()" coords="506,390,382,356" shape="rect">
+        <area target="" alt="nervios_sacros" title="nervios_sacros" onclick="nerv_sacros()" coords="556,294,416,255" shape="rect">
+        <area target="" alt="nervios_lumbares" title="nervios_lumbares" onclick="nerv_lumbares()" coords="560,237,391,196" shape="rect">
+        <area target="" alt="nervios_toracicos" title="nervios_toracicos" onclick="nerv_toracicos()" coords="534,168,370,133" shape="rect">
+        <area target="" alt="medula_espinal" title="medula_espinal" onclick="medula_espinal()" coords="477,108,337,69" shape="rect">
+    </map>
+
+    </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark" href="">Ing.Franyany Rodriguez Cabrera #19</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+    <script src="js/nervioso.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

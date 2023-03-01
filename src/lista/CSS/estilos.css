@@ -1,0 +1,30 @@
+
+    .addTaskButton{
+        background-color: transparent;
+        border: transparent;
+        font-size: 30px;
+    }
+
+    button{
+        border: transparent;
+        background-color: transparent;
+    }
+
+    .task {
+        border-radius: 10px;
+        padding: 4px;
+        margin-top: 4px;
+        color: var(--light);
+        cursor: pointer;
+    }
+
+    .done {
+        text-decoration: line-through;
+        border-radius: 10px;
+        background-color: #ee4242;
+    }
+
+    img{ 
+        width: 15px;
+        height: 15px;
+    }
