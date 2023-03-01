@@ -1,0 +1,92 @@
+.swal-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.swal-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.anterior{
+    font-size: 30px;
+    background-color: rgba(240, 248, 255, 0);
+   border: 0px;
+   margin-left: 500px;
+   margin-top: 25px;
+  
+
+}
+
+#numero{
+    font-size: 200px;
+    margin-left: 625px;
+   margin-top: -50px;
+
+}
+#numeross{
+    font-size: 50px;
+    margin-left: 650px;
+   margin-top: -10px;
+
+}
+
+.siguiente{
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: 25px;
+  background-color: rgba(240, 248, 255, 0);
+   border: 0px;
+}
+
+body{
+    background-image: url(https://us.123rf.com/450wm/wektorygrafika/wektorygrafika1708/wektorygrafika170800053/83396631-pizarra-vector-s%C3%ADmbolo-de-dise%C3%B1o-de-iconos-hermosa-ilustraci%C3%B3n-aislada-sobre-fondo-blanco.jpg);
+    background-size: 1000px;
+    font-family: 'Shantell Sans', cursive;
+    background-position-x: 200px ;
+    background-position-y: -100px ;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    
+}
+.bob{
+    margin-top: -200px;
+    margin-left: 100px;
+    width: 350px;
+}
+
+.titulo{
+   
+    margin-left: 475px;
+    font-size: 30px;
+    margin-top: 60px
+    ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

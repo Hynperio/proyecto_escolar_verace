@@ -1,0 +1,116 @@
+
+body{	
+	background: #003b5e;
+}
+
+.color1{
+color: white;
+
+}
+
+#bb{
+    margin-left: 1185px;
+ width: 180px;
+ height: 160px;
+ margin-top: -98px;
+}
+
+#gris{
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+}
+
+#verde{
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+}
+
+#rojo{
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+}
+
+#blanco{
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+}
+
+#negro{
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+}
+
+#azul{
+margin-right: 5%;
+height: 70px;
+width: 10%;
+}
+
+#rosado{
+background-color: palevioletred;
+width: 10%;
+height: 70px;
+margin-right: 5%;
+color: white;
+}
+
+#morado{
+background-color: blueviolet;
+width: 10%;
+height: 70px;
+margin-right: 5%;
+color: white;
+}
+
+#marron{
+    background-color: #804000;
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+    color: white;
+}
+
+#anaranjado{
+    background-color: orange;
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+    color: white;
+}
+
+#amarillo{
+    background-color: rgb(245, 245, 2);
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+    color: white;
+}
+
+#azulclaro{
+    color: white;
+    width: 10%;
+    height: 70px;
+    margin-right: 5%;
+}
+
+.img{ 
+    margin-top: 53px;
+    margin-left: -35px;
+  width: 350px;
+  height: 170px;
+}
+
+
+#l{
+    color: white;
+    margin-top: -35px;
+}
+
+
+
+
