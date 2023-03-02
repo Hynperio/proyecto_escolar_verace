@@ -1,0 +1,26 @@
+.boton
+{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#texto{
+    color: white;
+}
+body{
+    margin-top: 130px;
+    background-size: 1100px;
+    background-image: url(piz.png);
+    background-repeat: no-repeat;
+    
+}
+#t1{
+    margin-left: 360px;
+    color: white;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Sono', sans-serif;
+}
